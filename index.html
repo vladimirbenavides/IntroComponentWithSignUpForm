@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main class="main-container">
+    <section>
+      <h1>Learn to code by watching others</h1>
+      <p class="description"> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </section>
+
+    <section>
+      <div class="offer">
+        <span>Try it free 7 days </span>then $20/mo. thereafter
+      </div>
+      <div class="form-container">
+        <form action="">
+          <input id="firstNameInput" placeholder=" First Name ">
+          <div id = "firstNameError" class="error-container">
+            <!-- <img class="icon-error" src="./images/icon-error.svg" alt="icon">
+            <p class="error">First Name cannot be empty</p> -->
+          </div>
+          <input id="lastNameInput"type="text" placeholder=" Last Name ">
+          <div id="lastNameError" class="error-container">
+           <!--  <img class="icon-error" src="./images/icon-error.svg" alt="icon">
+            <p>First Name cannot be empty</p> -->
+          </div>
+          <input id="emailInput" type="email" placeholder=" Email Address">
+          <div id="emailError" class="error-container"></div>
+          <input id="passInput" type="password" placeholder=" Password">
+          <div id="passError" class="error-container"></div>
+
+          <input id ="button" type="submit" value=" Claim your free trial ">
+          
+        </form>
+
+        <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </div>
+    </section>
+
+  </main>
+
+ 
+
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/vladimirbenavides" target="_blank">Vladimir Benavides</a>.
+    </p>
+  </footer>
+  <script src="js.js"></script>
+</body>
+</html>
